@@ -1,4 +1,24 @@
 # Installation
+
+## Enable binder for Linux
+Please refer to [Enable binder for Linux](./ch02-00-enable-binder-for-linux.md) for detailed instructions on setting it up.
+
+## Create binder device file for Linux
+After the binder configuration of the Linux kernel is complete, a binder device file must be created.
+Install **rsbinder-tools** and run to create a binder device.
+
+```
+$ cargo install rsbinder-tools
+$ sudo rsb_device binder
+```
+
+## Run a service manager for Linux
+If **rsbinder-tools** is already installed, the **rsb_hub** executable is also installed. Let's run it as follows.
+```
+$ rsb_hub
+```
+
+## Dependecies of **rsbinder**
 Add the following configuration to your Cargo.toml file:
 
 ```
