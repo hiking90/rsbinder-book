@@ -10,8 +10,8 @@ CONFIG_ANDROID_BINDERFS=y
 ```
 
 ## Other documents related to Binder IPC
-- Linux kernel's Binder Document: https://www.kernel.org/doc/html/latest/admin-guide/binderfs.html
-- Anbox Docuemt: https://wiki.archlinux.org/title/Anbox#Mounting_binderfs
+- [Linux kernel's Binder Document](https://www.kernel.org/doc/html/latest/admin-guide/binderfs.html)
+- [Anbox Docuemt](https://wiki.archlinux.org/title/Anbox#Mounting_binderfs)
 
 
 Let's examine methods to activate Binder IPC in some representative Linux distributions.
