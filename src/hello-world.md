@@ -168,3 +168,13 @@ fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
     │   └── hello_service.rs
     └── lib.rs
 ```
+
+## Run Hello Service and Client
+* Run **hello_service**
+```
+$ cargo run --bin hello_service
+```
+* Run **hello_client**
+```
+$ cargo run --bin hello_client
+```
