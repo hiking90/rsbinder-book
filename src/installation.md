@@ -1,7 +1,7 @@
 # Installation
 
 ## Enable binder for Linux
-Please refer to [Enable binder for Linux](./ch02-00-enable-binder-for-linux.md) for detailed instructions on setting it up.
+Please refer to [Enable binder for Linux](./enable-binder-for-linux.md) for detailed instructions on setting it up.
 
 ## Create binder device file for Linux
 After the binder configuration of the Linux kernel is complete, a binder device file must be created.
