@@ -5,12 +5,11 @@ For building in the Android environment, it is necessary to install the NDK, and
 [Android Build](./android-build.md)
 
 ## Compatibility with Android Versions
-안드로이드 버전에 따른 Binder IPC에 대한 호환성 문제가 있다.
-현재 확인된 사항은 Android 12를 기준으로 그 이전, 이후의 호환성 문제가 있다.
+There are compatibility issues with Binder IPC depending on the Android version. The current findings indicate there are compatibility issues before and after Android 12.
 
-당신의 SW가 Android 11과 12에서 모두 동작해야 한다면, Android 버전을 rsbinder::set_android_version() api를 통해 설정해야 한다.
+If your software needs to work on both Android 11 and 12, you must set the Android version using the rsbinder::set_android_version() API.
 
-Android Version 정보는 다음과 같이 확인하고, 설정할 수 있다.
+The Android Version information can be checked and set as follows.
 
 ```
 use android_system_properties::AndroidSystemProperties;
